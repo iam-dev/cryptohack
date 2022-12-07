@@ -1,0 +1,26 @@
+[package]
+name = "diffie-hellman"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "starter1"
+path = "src/starter1.rs"
+
+[[bin]]
+name = "starter2"
+path = "src/starter2.rs"
+
+[[bin]]
+name = "starter3"
+path = "src/starter3.rs"
+
+[[bin]]
+name = "starter4"
+path = "src/starter4.rs"
+
+[dependencies]
+num-bigint = "0.4.3"
+num-traits = "0.2.15"
+num-iter = "0.1.43"
